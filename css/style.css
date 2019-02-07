@@ -41,7 +41,7 @@ main > section {
 }
 
 nav {
-  display: inline-block;
+  display: inline;
 }
 
 nav ul {
