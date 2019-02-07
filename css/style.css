@@ -115,3 +115,8 @@ nav a:hover {
     height: 0;
     clear: both;
 }
+
+.logo {
+  height: 200px;
+  width: 200px;
+}
