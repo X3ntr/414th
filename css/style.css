@@ -1,4 +1,12 @@
 .section {
+
+}
+
+#one {
+  background-image: url('content/homepagebg.jpg');
+}
+
+#two, #three, #four, #five, #six {
   background-image: url('content/background.png');
 }
 
@@ -85,6 +93,13 @@ nav a:hover {
   width: 50%;
 }
 
+.offset {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
 .clearfix:after {
     content: ".";
     visibility: hidden;
@@ -94,6 +109,6 @@ nav a:hover {
 }
 
 .logo {
-  height: 200px;
-  width: 200px;
+  height: 500px;
+  width: 500px;
 }
