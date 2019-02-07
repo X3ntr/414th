@@ -4,11 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Virtual 414th Joint Fighter Group</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" href="/414th/images/favicon.ico" type="image/x-icon"/>
+
+    <link rel="stylesheet" type="text/css" href="css/fullpage.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="javascript/scrolloverflow.min.js"></script>
+    <script type="text/javascript" src="javascript/fullpage.js"></script>
+
+    <script type="text/javascript">
+    $(document).ready(function() {
+	  $('#fullpage').fullpage({
+		//options here
+		autoScrolling:true,
+		scrollHorizontally: true
+	  });
+
+	  //methods
+	  $.fn.fullpage.setAllowScrolling(false);
+    });
+    </script>
 </head>
 <body>
 
+<!--
 <header>
   <nav>
     <ul class="container">
@@ -22,13 +42,30 @@
   </nav>
 </header>
 
+
 <main>
     <section>
 		<h1>Home</h1>
-    <!--<img src="/414th/images/logo.png" alt="414th logo" class="fl-left" /> -->
+    <img src="/414th/images/logo.png" alt="414th logo" class="fl-left" />
     <img src="/414th/images/logo_aggr.png" alt="414th logo aggressors" class="center logo" />
     <h1>work in progress</h1>
 	</section>
 </main>
+-->
+
+<div id="fullpage">
+  <div class="section active">Home</div>
+  <div class="section">About</div>
+  <div class="section">
+    <div class="slide">Placeholder 1</div>
+    <div class="slide">Placeholder 2</div>
+    <div class="slide">Placeholder 3</div>
+    <div class="slide">Placeholder 4</div>
+  </div>
+  <div class="section">Library</div>
+  <div class="section">Twitch.tv</div>
+  <div class="section">Join Us</div>
+</div>
+
 </body>
 </html>
