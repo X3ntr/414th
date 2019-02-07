@@ -120,6 +120,10 @@ nav a:hover {
     text-align: center;
 }
 
+.center {
+  text-align: center;
+}
+
 .clearfix:after {
     content: ".";
     visibility: hidden;
