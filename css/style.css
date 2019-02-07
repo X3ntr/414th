@@ -28,7 +28,7 @@ body {
     margin: 0;
     font-family: "latolight", "Arial", "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #494949; /*#152060*/
-    background-image: url(/content/background.png);
+    background-image: url(content/background.png);
     background-color: #888;
     background-repeat: no-repeat;
     background-position: center;
