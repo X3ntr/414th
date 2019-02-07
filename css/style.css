@@ -27,7 +27,7 @@ body {
     padding: 0 1%;
     margin: 0;
     font-family: "latolight", "Arial", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: #494949; /*#152060*/
+    color: #eee;
     background-image: url(content/background.png);
     background-color: #888;
     background-repeat: no-repeat;
@@ -37,7 +37,7 @@ body {
 
 main {
     width: 90%;
-    box-shadow: -10px 10px 10px -10px #555, 10px 10px 10px -10px #555;
+    box-shadow: -10px 10px 10px -10px #999, 10px 10px 10px -10px #999;
     margin: 0 auto 1% auto;
     padding: 1%;
     text-align: center;
@@ -121,7 +121,10 @@ nav a:hover {
 }
 
 .center {
-  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 .clearfix:after {
