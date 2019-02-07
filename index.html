@@ -7,6 +7,7 @@
 
     <link rel="stylesheet" type="text/css" href="css/fullpage.css" />
     <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/animation.css" />
     <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
 
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
@@ -18,10 +19,45 @@
 <body>
 <div id="fullpage">
   <div id="one" class="section">
-    <img src="/414th/images/logo_aggr.png" alt="414th logo aggressors" class="offset logo" />
+    <div class="">
+      <img src="images/logo_aggr.png" alt="414th logo aggressors" class="logo" />
+      <div class="animation">
+        <h1>
+          <span>4</span>
+          <span>1</span>
+          <span>4</span>
+          <span>t</span>
+          <span>h</span>
+          <span>&nbsp;</span>
+          <span>J</span>
+          <span>o</span>
+          <span>i</span>
+          <span>n</span>
+          <span>t</span>
+          <span>&nbsp;</span>
+          <span>F</span>
+          <span>i</span>
+          <span>g</span>
+          <span>h</span>
+          <span>t</span>
+          <span>e</span>
+          <span>r</span>
+          <span>&nbsp;</span>
+          <span>G</span>
+          <span>r</span>
+          <span>o</span>
+          <span>u</span>
+          <span>p</span>
+        </h1>
+      </div>
+    </div>
   </div>
   <div id="two" class="section"></div>
-  <div id="three" class="section"></div>
+  <div id="three" class="section">
+    <div class="slide"></div>
+    <div class="slide"></div>
+    <div class="slide"></div>
+  </div>
   <div id="four" class="section"></div>
   <div id="five" class="section"></div>
   <div id="six" class="section"></div>
@@ -34,10 +70,12 @@ autoScrolling: true,
 fitToSection: true,
 navigation: true,
 navigationPosition: 'left',
-navigationTooltips: ['home', 'about', 'gallery', 'library', 'twitch.tv', 'join us'],
+navigationTooltips: ['Home', 'About', 'Gallery', 'Library', 'Twitch.tv', 'Join us'],
 showActiveTooltip: true,
 slidesNavigation: false,
-keyboardScrolling: true
+keyboardScrolling: true,
+sectionSelector: '.section',
+slideSelector: '.slide'
 });
 
 //methods
