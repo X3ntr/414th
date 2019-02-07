@@ -12,8 +12,34 @@
   background-repeat: no-repeat;
 }
 
-#two, #three, #four, #five, #six {
+#two {
+  background-image: url('content/bg7.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#three {
   background-image: url('content/background.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#four {
+  background-image: url('content/bg5.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#five {
+  background-image: url('content/bg2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#six {
+  background-image: url('content/bg4.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .container {
