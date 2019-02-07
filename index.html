@@ -18,41 +18,30 @@
     $(document).ready(function() {
 	  $('#fullpage').fullpage({
 		licenseKey: '47CC23D3-DB144776-9278FDDA-EF84F8F5',
-		autoScrolling:true,
-		scrollHorizontally: true
+    anchors: ['home', 'about', 'gallery', 'library', 'twitch', 'join'],
+    menu: '#navbar',
+		autoScrolling: false,
+    loopTop: true,
+    loopBottom: true,
+    animateAnchor: true,
+    recordHistory: true
 	  });
 
 	  //methods
-	  $.fn.fullpage.setAllowScrolling(false);
+	  $.fn.fullpage.setAllowScrolling(true);
     });
     </script>
 </head>
 <body>
 
-<!--
-<header>
-  <nav>
-    <ul class="container">
-      <li class="current-nav-element item"><a href="#">Home</a></li>
-      <li class="item"><a href="/414th/html/about.html">About</a></li>
-      <li class="item"><a href="/414th/html/gallery.html">Gallery</a></li>
-      <li class="item"><a href="/414th/html/library.html">Library</a></li>
-      <li class="item"><a href="/414th/html/twitch.html">Twitch.tv</a></li>
-      <li class="item"><a href="/414th/html/join.html">Join Us</a></li>
-    </ul>
-  </nav>
-</header>
-
-
-<main>
-    <section>
-		<h1>Home</h1>
-    <img src="/414th/images/logo.png" alt="414th logo" class="fl-left" />
-    <img src="/414th/images/logo_aggr.png" alt="414th logo aggressors" class="center logo" />
-    <h1>work in progress</h1>
-	</section>
-</main>
--->
+<ul id="navbar">
+  <li data-menuanchor="home" class="active"><a href="#home">Home</a></li>
+  <li data-menuanchor="about"><a href="#about">About</a></li>
+  <li data-menuanchor="gallery"><a href="#gallery">Gallery</a></li>
+  <li data-menuanchor="library"><a href="#library">Library</a></li>
+  <li data-menuanchor="twitch"><a href="#twitch">Twitch.tv</a></li>
+  <li data-menuanchor="join"><a href="#join">Join Us</a></li>
+</ul>
 
 <div id="fullpage">
   <div class="section active">
