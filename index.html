@@ -6,64 +6,49 @@
     <title>Virtual 414th Joint Fighter Group</title>
 
     <link rel="stylesheet" type="text/css" href="css/fullpage.css" />
-    <!--<link rel="stylesheet" type="text/css" href="css/style.css" /> -->
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
     <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
 
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <!-- <script type="text/javascript" src="javascript/scrolloverflow.min.js"></script> -->
     <!-- <script type="text/javascript" src="javascript/fullpage.extensions.min.js"></script> -->
     <script type="text/javascript" src="javascript/fullpage.min.js"></script>
-
-    <script type="text/javascript">
-    $(document).ready(function() {
-	  $('#fullpage').fullpage({
-		licenseKey: '47CC23D3-DB144776-9278FDDA-EF84F8F5',
-    scrollingSpeed: 700,
-		autoScrolling: true,
-    fitToSection: true,
-    navigation: true,
-    navigationPosition: 'left',
-    navigationTooltips: ['home', 'about', 'gallery', 'library', 'twitch.tv', 'join us'],
-    showActiveTooltip: true,
-    slidesNavigation: false,
-    keyboardScrolling: true,
-    css3: true,
-    easing: 'easeInOutCubic',
-    easingcss3: 'ease',
-	  });
-
-	  //methods
-	  $.fn.fullpage.setAllowScrolling(false);
-    });
-    </script>
 </head>
+
 <body>
-
-<ul id="navbar">
-  <li data-menuanchor="home" class="active"><a href="#home">Home</a></li>
-  <li data-menuanchor="about"><a href="#about">About</a></li>
-  <li data-menuanchor="gallery"><a href="#gallery">Gallery</a></li>
-  <li data-menuanchor="library"><a href="#library">Library</a></li>
-  <li data-menuanchor="twitch"><a href="#twitch">Twitch.tv</a></li>
-  <li data-menuanchor="join"><a href="#join">Join Us</a></li>
-</ul>
-
 <div id="fullpage">
-  <div class="section active">
-    <h2>Home</h2>
+  <div class="section">
     <img src="/414th/images/logo_aggr.png" alt="414th logo aggressors" class="center logo" />
   </div>
   <div class="section">About</div>
-  <div class="section">
-    <div class="slide">Placeholder 1</div>
-    <div class="slide">Placeholder 2</div>
-    <div class="slide">Placeholder 3</div>
-    <div class="slide">Placeholder 4</div>
-  </div>
+  <div class="section">Gallery</div>
   <div class="section">Library</div>
   <div class="section">Twitch.tv</div>
   <div class="section">Join Us</div>
 </div>
+
+<script type="text/javascript">
+$(document).ready(function() {
+$('#fullpage').fullpage({
+licenseKey: '47CC23D3-DB144776-9278FDDA-EF84F8F5',
+scrollingSpeed: 700,
+autoScrolling: true,
+fitToSection: true,
+navigation: true,
+navigationPosition: 'left',
+navigationTooltips: ['home', 'about', 'gallery', 'library', 'twitch.tv', 'join us'],
+showActiveTooltip: true,
+slidesNavigation: false,
+keyboardScrolling: true,
+css3: true,
+easing: 'easeInOutCubic',
+easingcss3: 'ease',
+});
+
+//methods
+$.fn.fullpage.setAllowScrolling(false);
+});
+</script>
 
 </body>
 </html>

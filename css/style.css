@@ -1,27 +1,5 @@
-body {
-    width: 98%;
-    padding: 0 1%;
-    margin: 0;
-    font-family: "latolight", "Arial", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: #eee;
-    background-image: url(content/background.png);
-    background-color: #FFF;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-main {
-    width: 90%;
-    box-shadow: -10px 10px 10px -10px #FFF, 10px 10px 10px -10px #FFF;
-    margin: 0 auto 1% auto;
-    padding: 1%;
-    text-align: center;
-}
-
-main > section {
-    text-align: justify;
-    width: 90%;
-    margin: auto auto 2% auto;
+.section {
+  background-image: url('content/background.png');
 }
 
 .container {
