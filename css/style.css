@@ -19,7 +19,7 @@
 }
 
 #zone3 {
-  background-image: url('content/background.png');
+  background-image: url('content/bg9.jpg');
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -31,7 +31,7 @@
 }
 
 #zone5 {
-  background-image: url('content/bg2.jpg');
+  background-image: url('content/bg8.png');
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -84,6 +84,9 @@
 
 .dark-wrapper {
   width: 100%;
-  height: 50%;
+  height: 100%;
   background-color: rgba(0,0,0,0.70);
+  vertical-align: middle;
+  display: table;
+  table-layout: fixed;
 }
