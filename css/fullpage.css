@@ -95,6 +95,7 @@ html.fp-enabled,
     -webkit-transition: none !important;
     transition: none !important;
 }
+
 #fp-nav {
     position: fixed;
     z-index: 100;
@@ -102,7 +103,10 @@ html.fp-enabled,
     top: 50%;
     opacity: 1;
     -webkit-transform: translate3d(0,0,0);
+    margin-left: 20px;
+    border-left: 2px solid rgba(220, 220, 220, 0.85);
 }
+
 #fp-nav.fp-right {
     right: 17px;
 }
@@ -131,12 +135,20 @@ html.fp-enabled,
   margin: 0;
   padding: 0;
 }
+
+#fp-nav ul {
+  width: 24px;
+}
+
+#fp-nav li {
+  width: 24px;
+}
+
 #fp-nav ul li,
 .fp-slidesNav ul li {
     display: block;
-    width: 24px;
     height: 23px;
-    margin: 20px; /*7px*/
+    margin: 20px;
     position:relative;
 }
 .fp-slidesNav ul li {
@@ -156,20 +168,22 @@ html.fp-enabled,
 .fp-slidesNav ul li a.active span,
 #fp-nav ul li:hover a.active span,
 .fp-slidesNav ul li:hover a.active span{
-    height: 22px;
-    width: 22px;
+    height: 30px;
+    width: 30px;
     margin: -6px 0 0 -6px;
     border-radius: 100%;
+    outline-offset: 4px;
+    outline: 2px solid #444;
  }
 #fp-nav ul li a span,
 .fp-slidesNav ul li a span {
     border-radius: 50%;
     position: absolute;
     z-index: 1;
-    height: 12px;
-    width: 12px;
+    height: 22px;
+    width: 22px;
     border: 0;
-    background: #333;
+    /*background: #333;*/
     left: 50%;
     top: 50%;
     margin: -2px 0 0 -2px;
@@ -180,10 +194,48 @@ html.fp-enabled,
 }
 #fp-nav ul li:hover a span,
 .fp-slidesNav ul li:hover a span{
-    width: 16px;
-    height: 16px;
+    width: 26px;
+    height: 26px;
     margin: -5px 0px 0px -5px;
 }
+
+#fp-nav ul li:nth-of-type(1) a span {
+  background-image: url('content/home.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+#fp-nav ul li:nth-of-type(2) a span {
+  background-image: url('content/about.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+#fp-nav ul li:nth-of-type(3) a span {
+  background-image: url('content/gallery.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+#fp-nav ul li:nth-of-type(4) a span {
+  background-image: url('content/library.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+#fp-nav ul li:nth-of-type(5) a span {
+  background-image: url('content/twitch.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+#fp-nav ul li:nth-of-type(6) a span {
+  background-image: url('content/join.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
 #fp-nav ul li .fp-tooltip {
     position: absolute;
     top: -2px;
@@ -211,6 +263,7 @@ html.fp-enabled,
 #fp-nav ul li .fp-tooltip.fp-left {
     left: 45px;
 }
+
 .fp-auto-height.fp-section,
 .fp-auto-height .fp-slide,
 .fp-auto-height .fp-tableCell{
