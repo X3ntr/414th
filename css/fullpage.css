@@ -60,7 +60,7 @@ html.fp-enabled,
     -ms-user-select: none;
     position: absolute;
     z-index: 4;
-    top: 80%;
+    top: 90%;
     cursor: pointer;
     width: 0;
     height: 0;
@@ -71,16 +71,28 @@ html.fp-enabled,
     transform: translate3d(0,0,0);
 }
 .fp-controlArrow.fp-prev {
-    left: 15px;
+    left: 45%;
     width: 0;
     border-width: 38.5px 34px 38.5px 0;
     border-color: transparent #fff transparent transparent;
 }
 .fp-controlArrow.fp-next {
-    right: 15px;
+    right: 45%;
     border-width: 38.5px 0 38.5px 34px;
     border-color: transparent transparent transparent #fff;
 }
+
+.fp-controlArrow.fp-prev:hover {
+    border-width: 40.5px 36px 40.5px 0;
+    left: 44.8%;
+    top: 89.9%;
+}
+.fp-controlArrow.fp-next:hover {
+    border-width: 40.5px 0 40.5px 36px;
+    right: 44.8%;
+    top: 89.9%;
+}
+
 .fp-scrollable {
     overflow: hidden;
     position: relative;

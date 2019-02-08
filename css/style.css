@@ -1,9 +1,11 @@
+@font-face {font-family: "Orbitron"; src:url("./fonts/Orbitron-Medium.ttf");}
+
 .section {
 
 }
 
 .slide {
-
+  margin: auto;
 }
 
 #zone1 {
@@ -19,9 +21,7 @@
 }
 
 #zone3 {
-  background-image: url('content/bg9.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
+
 }
 
 #zone4 {
@@ -37,9 +37,65 @@
 }
 
 #zone6 {
-  background-image: url('content/bg4.jpg');
+  background-image: url('content/bg9.jpg');
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+#gallery1 {
+  background-image: url('../images/gallery1.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#gallery2 {
+  background-image: url('../images/gallery2.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#gallery3 {
+  background-image: url('../images/gallery3.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#gallery4 {
+  background-image: url('../images/gallery4.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#gallery5 {
+  background-image: url('../images/gallery5.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#gallery6 {
+  background-image: url('../images/gallery6.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#gallery7 {
+  background-image: url('../images/gallery7.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#gallery8 {
+  background-image: url('../images/gallery8.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .left {
@@ -119,4 +175,21 @@
   width: 70%;
   padding-left: 18%;
   padding-right: 13%;
+}
+
+.fixed-header {
+  top: 5%;
+  left: 25%;
+  position: absolute;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+  display: block;
+  width: 50%;
+  color: snow;
+  font-size: 3em;
+  font-weight: 700;
+  border: 5px solid snow;
+  text-align: center;
+  z-index: 1000;
 }

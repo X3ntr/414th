@@ -12,7 +12,7 @@
 
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <!-- <script type="text/javascript" src="javascript/scrolloverflow.min.js"></script> -->
-    <!-- <script type="text/javascript" src="javascript/fullpage.extensions.min.js"></script> -->
+    <script type="text/javascript" src="javascript/fullpage.extensions.min.js"></script>
     <script type="text/javascript" src="javascript/fullpage.js"></script>
 
     <!-- <script type="text/javascript" src="javascript/test.js"></script> -->
@@ -30,7 +30,8 @@
     keyboardScrolling: true,
     sectionSelector: '.section',
     slideSelector: '.slide',
-    verticalCentered: false
+    verticalCentered: false,
+    fadingEffect: 'slides'
     });
 
     //methods
@@ -44,6 +45,17 @@
             fullpage_api.moveSectionDown();
         }
     });
+
+  $('.fp-prev').on('click', function(e) {
+    e.preventDefault();
+    fullpage_api.moveSlideLeft();
+  });
+
+  $('.fp-next').on('click', function(e) {
+    e.preventDefault();
+    fullpage_api.moveSlideRight();
+  });
+
   });
 </script>
 
@@ -94,12 +106,27 @@
     </div>
   </div>
   <div id="zone3" class="zone section">
-    <div class="fp-tableCell">
     <div class="dark-wrapper">
-    <div class="slide"></div>
-    <div class="slide"></div>
-    <div class="slide"></div>
-  </div>
+      <div class="fixed-header">GALLERY</div>
+      <!-- <div class="slide"><img src="images/gallery1.png" class="gallery"/></div>
+      <div class="slide"><img src="images/gallery2.png" class="gallery"/></div>
+      <div class="slide"><img src="images/gallery3.png" class="gallery"/></div>
+      <div class="slide"><img src="images/gallery4.png" class="gallery"/></div>
+      <div class="slide"><img src="images/gallery5.png" class="gallery"/></div>
+      <div class="slide"><img src="images/gallery6.png" class="gallery"/></div>
+      <div class="slide"><img src="images/gallery7.png" class="gallery"/></div>
+      <div class="slide"><img src="images/gallery8.png" class="gallery"/></div> -->
+
+
+
+      <div id="gallery1" class="slide gallery"></div>
+      <div id="gallery2" class="slide gallery"></div>
+      <div id="gallery3" class="slide gallery"></div>
+      <div id="gallery4" class="slide gallery"></div>
+      <div id="gallery5" class="slide gallery"></div>
+      <div id="gallery6" class="slide gallery"></div>
+      <div id="gallery7" class="slide gallery"></div>
+      <div id="gallery8" class="slide gallery"></div>
   </div>
   </div>
   <div id="zone4" class="zone section">
@@ -110,12 +137,12 @@
   <div id="zone5" class="zone section">
     <div class="dark-wrapper">
       <div class="fp-tableCell W70">
-        <iframe src="https://player.twitch.tv/?channel=xxdfa" frameborder="0" allowfullscreen="true" scrolling="no" height="540" width="960" class="left main-player"></iframe>
+        <iframe src="https://player.twitch.tv/?channel=xxdfa" frameborder="0" allowfullscreen="true" scrolling="no" height="51%" width="70%" class="left main-player"></iframe> <!-- 540h 960w-->
         <div class="right twitch">
           <ul>
             <li><iframe src="https://player.twitch.tv/?channel=spartanstix65" frameborder="0" allowfullscreen="false" scrolling="no" class="player"></iframe></li>
             <li><iframe src="https://player.twitch.tv/?channel=desmosquito" frameborder="0" allowfullscreen="false" scrolling="no" class="player"></iframe></li>
-            <li><iframe src="https://player.twitch.tv/?channel=x3ntr" frameborder="0" allowfullscreen="false" scrolling="no" class="player"></iframe></li>
+            <li><iframe src="https://player.twitch.tv/?channel=sugarbear125" frameborder="0" allowfullscreen="false" scrolling="no" class="player"></iframe></li>
           </ul>
         </div>
       </div>
