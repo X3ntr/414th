@@ -15,7 +15,7 @@
 }
 
 #zone2 {
-  background-image: url('content/bg7.jpg');
+  background-image: url('content/bg10.png');
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -43,14 +43,14 @@
 }
 
 #gallery1 {
-  background-image: url('../images/gallery1.png');
+  background-image: url('../images/gallery2.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 #gallery2 {
-  background-image: url('../images/gallery2.png');
+  background-image: url('../images/gallery8.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -92,7 +92,7 @@
 }
 
 #gallery8 {
-  background-image: url('../images/gallery8.png');
+  background-image: url('../images/gallery1.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -171,6 +171,15 @@
   table-layout: fixed;
 }
 
+.light-wrapper {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.40);
+  vertical-align: middle;
+  display: table;
+  table-layout: fixed;
+}
+
 .W70 {
   margin-top: 10%;
   width: 70%;
@@ -197,4 +206,96 @@
   text-align: center;
   z-index: 1000;
   font-family: 'Orbitron';
+}
+
+.content {
+  margin-top: 10%;
+  width: 45%;
+  margin-left: 10%;
+  padding-right: 1%;
+  text-align: justify;
+  color: snow;
+  font-size: 1.1em;
+  font-family: 'Arial';
+  /*border-right: 1px solid snow;*/
+}
+
+.team {
+  width: 30%;
+  margin-right: 10%;
+  height: 60%;
+  margin-top: 10%;
+}
+
+.team-member {
+  height: 21%;
+  width: 21%;
+  margin: 1%;
+  border-radius: 10%;
+  text-align: center;
+  font-family: 'Arial';
+  font-weight: 700;
+  font-size: 1em;
+  background-image: linear-gradient(snow, #ccc);
+  display: block;
+}
+
+.top {
+  width: 80%;
+  height: 65%;
+  padding-top: 10%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 0;
+  margin: 0;
+  color: #525252;
+}
+
+.bottom {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5%;
+  left: 15%;
+  height: 20%;
+  font-size: 0.8em;
+  font-weight: 400;
+  color: #696969;
+  border-top: 1px solid #696969;
+}
+
+.wl {
+  background-image: linear-gradient(snow, #ccc);
+}
+
+.fl {
+  background-image: linear-gradient(snow, #ccc);
+}
+
+.trainee, .m414th, .flight-lead, .wing-lead {
+  font-weight: 800;
+}
+
+.trainee {
+  color: #98ff98;
+}
+
+.m414th {
+  color: green;
+}
+
+.flight-lead {
+  color: yellow;
+}
+
+.wing-lead {
+  color: blue;
+}
+
+.no-margin-top {
+  margin-top: 0;
+}
+
+.no-margin-bottom {
+  margin-bottom: 0;
 }
