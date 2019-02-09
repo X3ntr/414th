@@ -74,12 +74,12 @@ html.fp-enabled,
     left: 45%;
     width: 0;
     border-width: 38.5px 34px 38.5px 0;
-    border-color: transparent #fff transparent transparent;
+    border-color: transparent #696969 transparent transparent;
 }
 .fp-controlArrow.fp-next {
     right: 45%;
     border-width: 38.5px 0 38.5px 34px;
-    border-color: transparent transparent transparent #fff;
+    border-color: transparent transparent transparent #696969;
 }
 
 .fp-controlArrow.fp-prev:hover {
@@ -116,7 +116,7 @@ html.fp-enabled,
     opacity: 1;
     -webkit-transform: translate3d(0,0,0);
     margin-left: 20px;
-    border-left: 1px solid rgba(220, 220, 220, 0.85);
+    border-left: 1px solid #696969;
 }
 
 #fp-nav.fp-right {
