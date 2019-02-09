@@ -177,6 +177,24 @@
   table-layout: fixed;
 }
 
+.left-wrapper {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, snow 56.9%, rgba(0,0,0,0.2) 57%);
+  vertical-align: middle;
+  display: table;
+  table-layout: fixed;
+}
+
+.right-wrapper {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, rgba(0,0,0,0.20) 60.9%, snow 61%);
+  vertical-align: middle;
+  display: table;
+  table-layout: fixed;
+}
+
 .diagonal-wrapper {
   width: 100%;
   height: 100%;

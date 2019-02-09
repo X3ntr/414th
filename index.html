@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="nl">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,12 +10,11 @@
     <link rel="stylesheet" type="text/css" href="css/animation.css" />
     <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
 
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-    <!-- <script type="text/javascript" src="javascript/scrolloverflow.min.js"></script> -->
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script> -->
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="javascript/scrolloverflow.min.js"></script>
     <script type="text/javascript" src="javascript/fullpage.extensions.min.js"></script>
-    <script type="text/javascript" src="javascript/fullpage.js"></script>
-
-    <!-- <script type="text/javascript" src="javascript/test.js"></script> -->
+    <!-- <script type="text/javascript" src="javascript/fullpage.js"></script> -->
 
     <script type="text/javascript">
     $(document).ready(function() {
@@ -37,8 +36,8 @@
     //methods
     fullpage_api.setAllowScrolling(false);
 
-    $(window).bind('mousewheel', function(event) {
-        if (event.originalEvent.wheelDelta >= 0) {
+    $(window).bind('wheel', function(event) {
+        if (event.originalEvent.deltaY <= 0) {
             fullpage_api.moveSectionUp();
         }
         else {
@@ -101,9 +100,9 @@
 </div>
   </div>
   <div id="zone2" class="zone section">
-    <div class="light-wrapper">
+    <div class="left-wrapper">
       <div class="header-left">ABOUT</div>
-      <div class="left content-left white-bg">
+      <div class="left content-left">
       <div class="content t69">
         <p class="no-margin-top">Welcome to the 414th Joint Fighter Group, formally established on April 7th, 2018! We are a <b>casual</b> group that provides training for newer or inexperienced pilots and a place to call home
         for those looking to be part of a multiplayer squadron. The 414th is primarily oriented towards PvE combat, with an occasional mix of joint operations and squadron versus squadron (PvP) battles
@@ -173,9 +172,9 @@
   </div>
 -->
   <div id="zone5" class="zone section">
-    <div class="light-wrapper">
+    <div class="right-wrapper">
       <div class="header-right">TWITCH</div>
-      <div class="right content-right white-bg">
+      <div class="right content-right">
         <iframe src="https://player.twitch.tv/?channel=xxdfa" frameborder="0" allowfullscreen="true" scrolling="no" class="main-player"></iframe> <!-- 540h 960w-->
         <!--
         <div class="right twitch">
