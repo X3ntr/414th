@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -9,54 +9,6 @@
     <link rel="stylesheet" type="text/css" href="css/style.css" />
     <link rel="stylesheet" type="text/css" href="css/animation.css" />
     <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
-
-    <!-- <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script> -->
-    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="javascript/scrolloverflow.min.js"></script>
-    <script type="text/javascript" src="javascript/fullpage.extensions.min.js"></script>
-    <!-- <script type="text/javascript" src="javascript/fullpage.js"></script> -->
-
-    <script type="text/javascript">
-    $(document).ready(function() {
-    $('#fullpage').fullpage({
-    licenseKey: '47CC23D3-DB144776-9278FDDA-EF84F8F5',
-    autoScrolling: true,
-    fitToSection: true,
-    navigation: true,
-    navigationPosition: 'left',
-    showActiveTooltip: false,
-    slidesNavigation: false,
-    keyboardScrolling: true,
-    sectionSelector: '.section',
-    slideSelector: '.slide',
-    verticalCentered: false,
-    fadingEffect: 'slides'
-    });
-
-    //methods
-    fullpage_api.setAllowScrolling(false);
-
-    $(window).bind('wheel', function(event) {
-        if (event.originalEvent.deltaY <= 0) {
-            fullpage_api.moveSectionUp();
-        }
-        else {
-            fullpage_api.moveSectionDown();
-        }
-    });
-
-  $('.fp-prev').on('click', function(e) {
-    e.preventDefault();
-    fullpage_api.moveSlideLeft();
-  });
-
-  $('.fp-next').on('click', function(e) {
-    e.preventDefault();
-    fullpage_api.moveSlideRight();
-  });
-
-  });
-</script>
 
 </head>
 
@@ -128,7 +80,6 @@
 
       </div>
     </div>
-
       <div class="right team clearfix">
         <div class="left team-member no-margin-top"><div class="top">DFA<br>"Selfie"</div><div class="bottom">wing lead</div></div>
         <div class="left team-member no-margin-top"><div class="top">Sugarbear125<br>"Fog"</div><div class="bottom">wing lead</div></div>
@@ -140,13 +91,14 @@
         <div class="left team-member"><div class="top">Pardia</div><div class="bottom">member</div></div>
         <div class="left team-member clearfix"><div class="top">Stix<br>"Sandwich"</div><div class="bottom">member</div></div>
 
-        <div class="left team-member"><div class="top">Whiplash Thomas</div><div class="bottom">member</div></div>
+        <div class="left team-member"><div class="top">Thomas<br>"Whiplash"</div><div class="bottom">member</div></div>
         <div class="left team-member"><div class="top">XGUNNARX</div><div class="bottom">member</div></div>
         <div class="left team-member"><div class="top">AJ</div><div class="bottom">member</div></div>
         <div class="left team-member clearfix"><div class="top">NERD12512</div><div class="bottom">member</div></div>
 
         <div class="left team-member"><div class="top">Gho$t<br>"Gravity"</div><div class="bottom">member</div></div>
-        <div class="left team-member clearfix"><div class="top">Twerk-booty</div><div class="bottom">member</div></div>
+        <div class="left team-member"><div class="top">Twerk-booty</div><div class="bottom">member</div></div>
+        <div class="left team-member clearfix"><div class="top">Murdoc<br>"Pontiac"</div><div class="bottom">trainee</div></div>
       </div>
     </div>
   </div>
@@ -161,16 +113,8 @@
       <div id="gallery6" class="slide"></div>
       <div id="gallery7" class="slide"></div>
       <div id="gallery8" class="slide"></div>
-  </div>
-  </div>
-<!--
-  <div id="zone4" class="zone section">
-    <div class="dark-wrapper">
-      <div class="fixed-header">LIBRARY</div>
-      <div class="content">work in progress</div>
     </div>
   </div>
--->
   <div id="zone5" class="zone section">
     <div class="right-wrapper">
       <div class="header-right">TWITCH</div>
@@ -200,5 +144,20 @@
     </div>
   </div>
 </div>
+
+
+  <script type="text/javascript" src="javascript/scrolloverflow.min.js"></script>
+  <script type="text/javascript" src="javascript/fullpage.extensions.min.js"></script>
+
+  <script type="text/javascript">
+      var myFullpage = new fullpage('#fullpage', {
+          verticalCentered: false,
+          licenseKey: '47CC23D3-DB144776-9278FDDA-EF84F8F5',
+          navigation: true,
+          navigationPosition: 'left',
+          showActiveTooltop: false,
+
+      });
+  </script>
 </body>
 </html>
