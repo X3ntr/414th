@@ -19,9 +19,6 @@
   background-repeat: no-repeat;
 }
 
-#zone4 {
-}
-
 #zone5 {
   background-image: url('content/bg11.jpg');
   background-size: cover;
@@ -34,61 +31,170 @@
   background-repeat: no-repeat;
 }
 
+/*
 #gallery1 {
   background-image: url('../images/gallery2.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 #gallery2 {
   background-image: url('../images/gallery8.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 #gallery3 {
   background-image: url('../images/gallery3.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 #gallery4 {
   background-image: url('../images/gallery4.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 #gallery5 {
   background-image: url('../images/gallery5.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 #gallery6 {
   background-image: url('../images/gallery6.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 #gallery7 {
   background-image: url('../images/gallery7.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 #gallery8 {
   background-image: url('../images/gallery1.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
+#gallery9 {
+  background-image: url('../images/gallery9.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#gallery10 {
+  background-image: url('../images/gallery10.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#gallery11 {
+  background-image: url('../images/gallery11.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#gallery12 {
+  background-image: url('../images/gallery12.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#gallery13 {
+  background-image: url('../images/gallery13.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#gallery14 {
+  background-image: url('../images/gallery14.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#gallery15 {
+  background-image: url('../images/gallery15.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#gallery16 {
+  background-image: url('../images/gallery16.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#gallery17 {
+  background-image: url('../images/gallery17.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#gallery18 {
+  background-image: url('../images/gallery18.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#gallery19 {
+  background-image: url('../images/gallery19.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#gallery20 {
+  background-image: url('../images/gallery20.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#gallery21 {
+  background-image: url('../images/gallery21.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#gallery22 {
+  background-image: url('../images/gallery22.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#gallery23 {
+  background-image: url('../images/gallery23.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#gallery24 {
+  background-image: url('../images/gallery24.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#gallery25 {
+  background-image: url('../images/gallery25.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#gallery26 {
+  background-image: url('../images/gallery26.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#gallery27 {
+  background-image: url('../images/gallery27.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+*/
 
 .left {
     float: left;
