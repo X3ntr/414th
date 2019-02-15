@@ -421,39 +421,40 @@
 }
 
 .team-member {
-  height: 21%;
-  width: 21%;
-  margin: 1%;
-  border: 1px solid snow;
-  text-align: center;
-  font-family: 'Arial';
-  font-weight: 700;
-  font-size: 1em;
-  display: block;
-}
-
-.top {
-  width: 70%;
-  height: 55%;
-  padding-top: 20%;
-  padding-left: 15%;
-  padding-right: 15%;
-  padding-bottom: 0;
-  margin: 0;
+  text-transform: uppercase;
   color: snow;
+  /*margin-top: 3.3vw;*/
+  font-weight: 800;
+  font-family: 'Arial';
+  font-size: 0.85vw;
 }
 
 .bottom {
   width: 70%;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 5%;
-  left: 15%;
-  height: 20%;
-  font-size: 0.8em;
-  font-weight: 400;
-  color: snow;
-  border-top: 1px solid snow;
+  /*margin-top: 2vw;*/
+  position: relative;
+  padding-top: 0.15vw;
+  display: block;
+  border-top: 1px solid #ddd;
+  font-weight: 300;
+  font-size: 0.65vw;
+  text-transform: capitalize;
+}
+
+table {
+  table-layout: fixed;
+  width: 90%;
+  border-spacing: 0.5vw;
+}
+
+tr {
+  height: 8vw;
+}
+
+td {
+  border: 2px solid #ddd;
 }
 
 .trainee, .m414th, .flight-lead, .wing-lead {
