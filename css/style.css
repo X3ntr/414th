@@ -35,6 +35,12 @@
   background-repeat: no-repeat;
 }
 
+#zone7 {
+  background-image: url('content/oseaeruseaflag.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 #gallery1 {
   background-image: url('../images/gallery2.png');
   background-position: center;
@@ -475,6 +481,14 @@ td {
 
 .wing-lead {
   color: blue;
+}
+
+.blue {
+  color: blue;
+}
+
+.red {
+  color: red;
 }
 
 .no-margin-top {

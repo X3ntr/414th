@@ -247,6 +247,12 @@ html.fp-enabled,
   background-position: center;
   background-size: cover;
 }
+#fp-nav ul li:nth-of-type(6) a span {
+  background-image: url('content/oadf.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
 
 #fp-nav ul li .fp-tooltip {
     position: absolute;
