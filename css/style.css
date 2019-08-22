@@ -36,7 +36,7 @@
 }
 
 #zone7 {
-  background-image: url('content/oseaeruseaflag.png');
+  background-image: url('content/osea_erusea.gif');
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -304,6 +304,15 @@
   table-layout: fixed;
 }
 
+.left-wrapper-trans {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, rgba(255,255,255,0.45) 56.9%, rgba(255,255,255,0) 57%);
+  vertical-align: middle;
+  display: table;
+  table-layout: fixed;
+}
+
 .right-wrapper {
   width: 100%;
   height: 100%;
@@ -416,6 +425,10 @@
 
 .t69 {
   color: #696969;
+}
+
+.t44 {
+  color: #444444;
 }
 
 .team {
