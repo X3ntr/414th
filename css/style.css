@@ -435,48 +435,35 @@
   width: 40%;
   margin-left: auto;
   margin-right: auto;
-  height: 70%;
-  margin-top: 8%;
+  height: 80%;
+  margin-top: 5%;
+}
+
+.team-list {
+  width: 45%;
+  margin-left: auto;
+  margin-right: 4%;
+  height: 100%;
 }
 
 .team-member {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2%;
+  height: auto;
+  padding: 0.3vw;
   text-transform: uppercase;
   color: snow;
-  /*margin-top: 3.3vw;*/
   font-weight: 800;
   font-family: 'Arial';
   font-size: 0.85vw;
+  border: 2px solid snow;
+  border-radius: 5px;
+  text-align: left;
 }
 
-.bottom {
-  width: 70%;
-  margin-left: auto;
-  margin-right: auto;
-  /*margin-top: 2vw;*/
-  position: relative;
-  padding-top: 0.15vw;
-  display: block;
-  border-top: 1px solid #ddd;
-  font-weight: 300;
-  font-size: 0.65vw;
-  text-transform: capitalize;
-}
-
-table {
-  table-layout: fixed;
-  width: 90%;
-  border-spacing: 0.5vw;
-}
-
-tr {
-  height: 8vw;
-}
-
-td {
-  border: 2px solid #ddd;
-}
-
-.trainee, .m414th, .flight-lead, .wing-lead {
+.trainee, .m414th, .instructor, .flight-lead, .wing-lead {
   font-weight: 800;
 }
 
@@ -484,16 +471,40 @@ td {
   color: #98ff98;
 }
 
+.trainee-brdr {
+  border-left: 5px solid #98ff98;
+}
+
 .m414th {
-  color: green;
+  color: #1bc24a;
+}
+
+.m414th-brdr {
+  border-left: 5px solid #1bc24a;
+}
+
+.instructor {
+  color: #433d8a;
+}
+
+.instructor-brdr {
+  border-left: 5px solid #433d8a;
 }
 
 .flight-lead {
-  color: purple;
+  color: #9941e0;
+}
+
+.flight-lead-brdr {
+  border-left: 5px solid #9941e0;
 }
 
 .wing-lead {
-  color: blue;
+  color: #5b86f5;
+}
+
+.wing-lead-brdr {
+  border-left: 5px solid #5b86f5;
 }
 
 .blue {

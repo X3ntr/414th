@@ -11,7 +11,8 @@
 }
 
 .animation h1 {
-  font: 300 50px/1 Orbitron, sans-serif;
+  /*font: 300 50px/1 Orbitron, sans-serif;*/
+  font: 300 2.5vw Orbitron, sans-serif;
   white-space: nowrap;
   color: whitesmoke;
 }
