@@ -70,26 +70,41 @@ html.fp-enabled,
     -ms-transform: translate3d(0,0,0);
     transform: translate3d(0,0,0);
 }
+/*ABOUT SLIDED*/
+
+#about .fp-controlArrow.fp-prev {
+    left: 25%;
+    width: 0;
+    border-width: 38.5px 34px 38.5px 0;
+    border-color: transparent #696969 transparent transparent;
+}
+#about .fp-controlArrow.fp-next {
+    right: 60%;
+    border-width: 38.5px 0 38.5px 34px;
+    border-color: transparent transparent transparent #696969;
+}
+
+/* GENERAL SLIDES*/
 .fp-controlArrow.fp-prev {
-    left: 45%;
+    left: 40%;
     width: 0;
     border-width: 38.5px 34px 38.5px 0;
     border-color: transparent #696969 transparent transparent;
 }
 .fp-controlArrow.fp-next {
-    right: 45%;
+    right: 40%;
     border-width: 38.5px 0 38.5px 34px;
     border-color: transparent transparent transparent #696969;
 }
 
 .fp-controlArrow.fp-prev:hover {
     border-width: 40.5px 36px 40.5px 0;
-    left: 44.8%;
+    left: 39.8%;
     top: 89.9%;
 }
 .fp-controlArrow.fp-next:hover {
     border-width: 40.5px 0 40.5px 36px;
-    right: 44.8%;
+    right: 39.8%;
     top: 89.9%;
 }
 
@@ -223,31 +238,33 @@ html.fp-enabled,
   background-position: center;
   background-size: cover;
 }
+
 #fp-nav ul li:nth-of-type(3) a span {
+  background-image: url('content/roster.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#fp-nav ul li:nth-of-type(4) a span {
   background-image: url('content/gallery.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
-/*#fp-nav ul li:nth-of-type(4) a span {
-  background-image: url('content/library.png');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}*/
-#fp-nav ul li:nth-of-type(4) a span {
+#fp-nav ul li:nth-of-type(5) a span {
   background-image: url('content/twitch.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
-#fp-nav ul li:nth-of-type(5) a span {
+#fp-nav ul li:nth-of-type(6) a span {
   background-image: url('content/join.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
-#fp-nav ul li:nth-of-type(6) a span {
+#fp-nav ul li:nth-of-type(7) a span {
   background-image: url('content/oadf.png');
   background-repeat: no-repeat;
   background-position: center;
