@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>414th JFG</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <img src="img/logo.png" alt="logo" class="logo-small">
+
+            <h1>414th Joint Fighter Group</h1>
+
+            <a href="https://discord.gg/aafaxHr" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 127.14 96.36" class="logo">
+                    <defs>
+                        <style>.cls-1{fill:#fff;}</style>
+                    </defs>
+                    <g id="图层_2" data-name="图层 2">
+                        <g id="Discord_Logos" data-name="Discord Logos">
+                            <g id="Discord_Logo_-_Large_-_White" data-name="Discord Logo - Large - White">
+                                <path class="cls-1" d="M107.7,8.07A105.15,105.15,0,0,0,81.47,0a72.06,72.06,0,0,0-3.36,6.83A97.68,97.68,0,0,0,49,6.83,72.37,72.37,0,0,0,45.64,0,105.89,105.89,0,0,0,19.39,8.09C2.79,32.65-1.71,56.6.54,80.21h0A105.73,105.73,0,0,0,32.71,96.36,77.7,77.7,0,0,0,39.6,85.25a68.42,68.42,0,0,1-10.85-5.18c.91-.66,1.8-1.34,2.66-2a75.57,75.57,0,0,0,64.32,0c.87.71,1.76,1.39,2.66,2a68.68,68.68,0,0,1-10.87,5.19,77,77,0,0,0,6.89,11.1A105.25,105.25,0,0,0,126.6,80.22h0C129.24,52.84,122.09,29.11,107.7,8.07ZM42.45,65.69C36.18,65.69,31,60,31,53s5-12.74,11.43-12.74S54,46,53.89,53,48.84,65.69,42.45,65.69Zm42.24,0C78.41,65.69,73.25,60,73.25,53s5-12.74,11.44-12.74S96.23,46,96.12,53,91.08,65.69,84.69,65.69Z"/>
+                            </g>
+                        </g>
+                    </g>
+                </svg>
+            </a>
+
+            <div class="faq">
+                <div class="faq-title" onclick="toggleFAQ()">> Frequently Asked Questions</div>
+                <div class="faq-content" id="faqContent">
+                    <div class="faq-item">
+                        <strong>Q: Do you have a minimum age requirement?</strong>
+                        <p>A: Yes, all members need to be over the age of 18.</p>
+                    </div>
+                    <div class="faq-item">
+                        <strong>Q: What time zone do you fly?</strong>
+                        <p>A: We operate on Eastern Standard Time (EST).</p>
+                    </div>
+                    <div class="faq-item">
+                        <strong>Q: What airframes do you support?</strong>
+                        <p>A: We welcome F/A-18C, F-16C, F-15E, F-15C and A-10C pilots.</p>
+                    </div>
+                    <div class="faq-item"></div>
+                        <strong>Q: How can I join?</strong>
+                        <p>A: Join our Discord server by clicking the Discord logo.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            function toggleFAQ() {
+                const content = document.getElementById('faqContent');
+                content.style.display = content.style.display === 'block' ? 'none' : 'block';
+            }
+
+            const images= [
+                'img/bg/01-full.png',
+                'img/bg/02-full.png',
+                'img/bg/03-full.png',
+                'img/bg/04-full.png',
+                'img/bg/05-full.png',
+                'img/bg/06-full.png',
+                'img/bg/07-full.png',
+                'img/bg/08-full.png',
+                'img/bg/09-full.png',
+                'img/bg/10-full.png',
+                'img/bg/11-full.png',
+                'img/bg/12-full.png',
+                'img/bg/13-full.png',
+                'img/bg/14-full.png',
+            ];
+
+            let currentIndex = 0;
+
+            function changeBackground() {
+                document.body.style.backgroundImage = `url(${images[currentIndex]})`;
+                currentIndex = (currentIndex + 1) % images.length;
+            }
+
+            setInterval(changeBackground, 10000);
+            changeBackground();
+        </script>
+    </body>
+</html>
