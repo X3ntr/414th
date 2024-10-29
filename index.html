@@ -8,6 +8,13 @@
     </head>
 
     <body>
+        <div class="video-background">
+            <video autoplay muted loop>
+                <source src="https://cdn.discordapp.com/attachments/540699326792466432/1300833065852997765/Website.mp4?ex=672246b3&is=6720f533&hm=affb475b1c041d37fe093557e7649e482ff08aefb494df136f9b05aac8815fea&" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+
         <div class="container">
             <img src="img/logo.png" alt="logo" class="logo-small">
 
@@ -107,8 +114,8 @@
                 currentIndex = (currentIndex + 1) % images.length;
             }
 
-            setInterval(changeBackground, 10000);
-            changeBackground();
+            //setInterval(changeBackground, 10000);
+            //changeBackground();
         </script>
     </body>
 </html>
