@@ -32,7 +32,7 @@ body {
     height: 100vh;
     object-fit: cover;
     transform: translate(-50%, -50%); /* Center the video */
-    /*border: none;*/
+    border: none;
 }
 
 .container {
