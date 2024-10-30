@@ -4,23 +4,17 @@
         <title>414th JFG</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <link rel="stylesheet" href="css/style.css">
     </head>
 
     <body>
-        <div class="video-background">
-            <iframe 
+        <div class="video-background embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item"
                 src="https://www.youtube.com/embed/n7VnrgF1Pmg?autoplay=1&mute=1&loop=1&controls=0&showinfo=0&rel=0&quality=hd2160&playlist=n7VnrgF1Pmg"
                 frameborder="0" 
-                allow="autoplay; encrypted-media; fullscreen" 
-                allowfullscreen>
+                allow="autoplay; encrypted-media; fullscreen">
             </iframe>
-            
-            <!--<video autoplay muted loop></video>
-                <source src="img/414th.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
-            -->
         </div>
 
         <div class="container">
@@ -79,51 +73,6 @@
                 const content = document.getElementById('faqContent');
                 content.style.display = content.style.display === 'block' ? 'none' : 'block';
             }
-
-            const images= [
-				//'img/bg/00-Voodoos_Poster.png',
-				//'img/bg/00-Wizards_Poster.png',
-				//'img/bg/00-PhantomEagles_Poster.png',
-                'img/bg/01-full.png',
-                'img/bg/02-full.png',
-                'img/bg/03-full.png',
-                'img/bg/04-full.png',
-                'img/bg/05-full.png',
-                'img/bg/06-full.png',
-                'img/bg/07-full.png',
-                'img/bg/08-full.png',
-                'img/bg/09-full.png',
-                'img/bg/10-full.png',
-                'img/bg/11-full.png',
-                'img/bg/12-full.png',
-                'img/bg/13-full.png',
-                'img/bg/14-full.png',
-				'img/bg/15-full.png',
-				'img/bg/16-full.png',
-				'img/bg/17-full.png',
-				'img/bg/18-full.png',
-				'img/bg/19-full.png',
-				'img/bg/20-full.png',
-				'img/bg/21-full.png',
-				'img/bg/22-full.png',
-				'img/bg/23-full.png',
-				'img/bg/24-full.png',
-				'img/bg/25-full.png',
-				'img/bg/26-full.png',
-				'img/bg/27-full.png',
-				'img/bg/28-full.png',
-				'img/bg/29-full.png',
-            ];
-
-            let currentIndex = 0;
-
-            function changeBackground() {
-                document.body.style.backgroundImage = `url(${images[currentIndex]})`;
-                currentIndex = (currentIndex + 1) % images.length;
-            }
-
-            //setInterval(changeBackground, 10000);
-            //changeBackground();
         </script>
     </body>
 </html>

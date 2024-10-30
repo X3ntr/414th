@@ -9,30 +9,14 @@ body {
     align-items: center;
     height: 100vh;
     position: relative;
-    /*background-size: cover;*/
-    /*background-position: center;*/
-    /*transition: background 1s ease;*/
     overflow: hidden;
 }
 
 .video-background {
-    position: fixed; /* Cover the entire viewport */
+    position: fixed;
     top: 0;
     left: 0;
-    width: 100vw;
-    height: 100vh;
-    z-index: -1; /* Keep it behind other content */
-}
-
-.video-background iframe {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 100vw;
-    height: 100vh;
-    object-fit: cover;
-    transform: translate(-50%, -50%); /* Center the video */
-    border: none;
+    z-index: -1;
 }
 
 .container {
@@ -64,10 +48,7 @@ h1 {
 }
 
 .faq {
-    /*background-color: #080023;*/
-    /*border-radius: 12px;*/
     padding: 20px;
-    /*box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);*/
     transition: transform 0.3s;
 }
 
@@ -115,19 +96,19 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    position: absolute; /* Adjust as needed */
-    left: 20px; /* Distance from the left */
-    top: 50%; /* Center vertically */
-    transform: translateY(-50%); /* Center adjustment */
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .social-icon {
-    margin: 10px 0; /* Space between icons */
-    width: 50px; /* Size of icons */
+    margin: 10px 0;
+    width: 50px;
     height: auto;
 }
 
 .social-icon img {
-    width: 100%; /* Responsive size */
+    width: 100%;
     height: auto;
 }
